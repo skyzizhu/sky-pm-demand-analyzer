@@ -3,7 +3,7 @@
 > 产品经理需求分析与转换助手 —— 帮你判断需求真伪、拆解MVP、转换为标准产品需求、多需求优先级排序。
 
 [![Skill](https://img.shields.io/badge/Type-AI%20Skill-blue)]()
-[![Version](https://img.shields.io/badge/Version-1.1.0-green)]()
+[![Version](https://img.shields.io/badge/Version-1.2.0-green)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
 
 ---
@@ -36,9 +36,10 @@
 sky-pm-demand-analyzer/
 ├── SKILL.md                              # 主入口（工作流+输出格式）
 ├── references/
-│   ├── demand-detection-framework.md     # 需求分辨框架（7大模块）
-│   ├── demand-conversion-framework.md    # 需求转换框架（6大模块）
-│   └── priority-ranking-framework.md      # 优先级排序框架（6大模块）
+│   ├── demand-detection-framework.md     # 需求分辨框架（7大模块+6项自检）
+│   ├── demand-conversion-framework.md    # 需求转换框架（6大模块+6项自检）
+│   ├── priority-ranking-framework.md     # 优先级排序框架（6大模块+6项自检）
+│   └── case-library.md                   # 10个典型案例库（B端5+C端5）
 └── assets/
     └── prd-template.md                   # 标准PRD模板
 ```
@@ -79,6 +80,27 @@ sky-pm-demand-analyzer/
 | 优先级排序 | 6项 | 有没有量化打分？有没有考虑战略对齐？有没有说明排期理由？有没有识别依赖关系？ |
 
 > 自检是自动的，用户不需要看到checklist，只需要看到最终成品——缺了什么模型自己补上。
+
+---
+
+## 📚 典型案例库
+
+10个最常见的需求场景，每个都有❌错误分析 vs ✅正确分析对比：
+
+| 类型 | 案例 | 学到什么 |
+|---|---|---|
+| B端 | 解决方案式需求 | 不要直接做用户给的方案，挖底层痛点 |
+| B端 | 个性化定制需求 | 不要写死，做配置化 |
+| B端 | 老板拍脑袋需求 | 先搞清楚到底给谁用、用来干嘛 |
+| B端 | 临时一次性需求 | 不要写进产品主流程 |
+| B端 | 高痛点+高成本 | 怎么切MVP |
+| C端 | 伪需求识别 | 别被评论区带节奏，看真实数据 |
+| C端 | 真痛点低成本 | quick win要先做 |
+| C端 | 高价值创新需求 | 重新定义问题，不要打补丁 |
+| C端 | 需求冲突处理 | 用户分层，不要听一边的 |
+| C端 | 多需求排序实战 | 价值/复杂度矩阵怎么用 |
+
+> 拿不准的时候，先想想这个需求像哪个案例，有对标就不会跑偏。
 
 ---
 

@@ -19,6 +19,7 @@ description: 产品经理需求分析与转换助手。当需要：(1) 判断一
 4. **✅ 自检**：跑完上面三步后，对照需求分辨自检清单逐项检查，缺了什么自动补上，不用用户提醒。
 
 详细框架见 [references/demand-detection-framework.md](references/demand-detection-framework.md)
+拿不准的时候，参考 [references/case-library.md](references/case-library.md) 里的典型案例。
 
 ### Step 2: 需求转换（转换成什么样的产品需求？）
 
